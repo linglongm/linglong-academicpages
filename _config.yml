@@ -23,7 +23,7 @@ repository               : "linglongm/linglong-academicpages"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "linglong-profile.jpeg"
+  avatar           : "linglong-dragon.jpg"
   name             : "Linglong Meng"
   pronouns         : # example: "she/her"  
   bio              : "CS Ph.D. student at the University of Delaware"
