@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About me"
+og_title: "Linglong Meng"
 author_profile: true
 redirect_from: 
   - /about/

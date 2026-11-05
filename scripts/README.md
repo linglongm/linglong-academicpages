@@ -1,24 +1,24 @@
 # scripts/
 
-Utility scripts for the Academic Pages template.
+Utility scripts for this site.
 
-## `make-og-image.py`
+## `make-og-image.sh`
 
-Generates the default Open Graph / social preview image at
-`images/og-image.png` (1200x630 PNG) used by `_includes/seo.html` when a page
-does not define its own header image.
+Generates the social preview image at `images/og-image.png` (1200x630 PNG),
+the card shown when someone shares a link to the site. `_includes/seo.html`
+uses it via `og_image` in `_config.yml` when a page has no header image of its own.
 
 ```
-python3 scripts/make-og-image.py
+bash scripts/make-og-image.sh
 ```
+
+To change the wording, colours or menu pills, edit the settings at the top of
+the script and run it again, then commit the new `images/og-image.png`.
 
 Requirements:
 
-- Python 3 with [Pillow](https://python-pillow.org) (`pip install Pillow`)
-- A TrueType font; defaults to DejaVu Sans (`/usr/share/fonts/truetype/dejavu`),
-  override with the `FONT_DIR` environment variable
-- The site favicon at `images/favicon-512x512.png` (already in the template);
-  it is composited as the card logo
+- ImageMagick 7 (`magick`)
+- DejaVu Sans fonts in `/usr/share/fonts/truetype/dejavu`; override the
+  directory with the `FONT_DIR` environment variable
 
-The output is byte-reproducible for a given Pillow/font version and is committed
-to the repo, so the build itself does not need Pillow.
+The image is committed to the repo, so the site build does not need ImageMagick.
