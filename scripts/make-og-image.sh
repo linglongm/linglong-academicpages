@@ -41,10 +41,10 @@ args=(
   -size 1200x630 xc:white
   -fill "$ACCENT" -draw "rectangle 0,0 1200,12"
   -font "$BOLD"    -pointsize 76 -fill "$DARK" -annotate +70+130 "$TITLE"
-  -font "$REGULAR" -pointsize 36 -fill "$GREY" -annotate +70+210 "$SUBTITLE"
+  -font "$REGULAR" -pointsize 44 -fill "$GREY" -annotate +70+215 "$SUBTITLE"
 )
 if [[ -n "$TAGLINE" ]]; then
-  args+=(-font "$REGULAR" -pointsize 30 -fill "$GREY" -annotate +70+262 "$TAGLINE")
+  args+=(-font "$REGULAR" -pointsize 34 -fill "$GREY" -annotate +70+275 "$TAGLINE")
 fi
 # Divider stops short of the photo when there is one.
 RULE_END=1130; [[ -n "$PHOTO" ]] && RULE_END=790
