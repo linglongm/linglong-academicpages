@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Linglong Meng"
 title_separator          : "-"
 name                     : &name "Linglong Meng"
-description              : &description "Linglong Meng, Ph.D. student in Computer and Information Science at the University of Delaware"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Linglong Meng, Ph.D. student in CS at the University of Delaware"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://linglongmeng.com # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "linglong-profile.jpeg"
   name             : "Linglong Meng"
   pronouns         : # example: "she/her"  
-  bio              : "CIS Ph.D. student at the University of Delaware"
+  bio              : "CS Ph.D. student at the University of Delaware"
   location         : "Newark, DE"
   employer         : # Shown in bio
   uri              : # URL
@@ -146,7 +146,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : og-image.png   # Social media default site image (lives in /images/)
-og_description           : "CIS Ph.D. student at the University of Delaware, working on programming languages and formal verification." # Social media default site image description
+og_description           : "CS Ph.D. student at the University of Delaware, working on programming languages and formal verification." # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
