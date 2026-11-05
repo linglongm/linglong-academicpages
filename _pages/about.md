@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. student in CS at the University of Delaware, starting in Fall 2026. I'm currently working on something involving Frama-C and MPI. I'm very excited about Frama-C, which seems to combine deductive verification and SMT. Another French technology! (developed in France, like CompCert, Rocq, and OCaml).
+I'm a Ph.D. student in Computer Science at the University of Delaware, starting in Fall 2026. I'm currently working on something involving Frama-C and MPI. I'm very excited about Frama-C, which combines deductive verification and SMT. Another French technology! (developed in France, like CompCert, Rocq, and OCaml).
 
 Past Projects
 ======
