@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About me"
+seo_title: "Linglong Meng - CS Ph.D. Student, University of Delaware"   # browser tab / Google result title
 og_title: "Linglong Meng"
 author_profile: true
 redirect_from: 

@@ -10,6 +10,8 @@
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Linglong Meng"
+site_name                : "Linglong Meng's Website"   # site name Google shows above the URL in search results
+site_alternate_names     : ["Linglong Meng", "linglongmeng.com"]
 title_separator          : "-"
 name                     : &name "Linglong Meng"
 description              : &description "Linglong Meng, Ph.D. student in CS at the University of Delaware"   # Update this with a general description of your site, this is the default if not overridden by a page
